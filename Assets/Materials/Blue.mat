@@ -115,16 +115,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - _Color: {r: 0, g: 0.42745113, b: 1, a: 1}
-=======
-    - _BaseColor: {r: 0, g: 0.42802045, b: 1, a: 1}
-    - _Color: {r: 0, g: 0.42802042, b: 1, a: 1}
->>>>>>> fb7727be188dcb1b266593e9931379a27bfa12ac
-=======
     - _Color: {r: 0, g: 0.42802048, b: 1, a: 1}
->>>>>>> parent of 6304612 (Game Framework_0604)
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
