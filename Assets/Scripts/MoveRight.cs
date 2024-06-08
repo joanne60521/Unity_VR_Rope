@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class MoveRight : MonoBehaviour
 {
-    [SerializeField] float forwardSpeed = 1.0f;
-    [SerializeField] float closerSpeed = 0.1f;
+    public float moveSpeed = 1.0f;
+    public float closerSpeed = 0.1f;
+    public Vector3 moveDirection = new(1, 0, 0);
+
+    public XRGrabInteractable xRGrabInteractable;
+    private bool grabedOnce = false;
 
     // Start is called before the first frame update
     void Start()
@@ -16,8 +21,18 @@ public class MoveRight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0, 0, -1) * forwardSpeed * Time.deltaTime;
-        transform.position += new Vector3(1, 0, 0) * closerSpeed * Time.deltaTime;
-
+        bool isGrabed = xRGrabInteractable.isSelected;
+        if (isGrabed)
+        {
+            grabedOnce = true;
+            
+        }else
+        {
+            transform.position += moveSpeed * Time.deltaTime * moveDirection;
+        }
+        if (grabedOnce && !isGrabed)
+        {
+            moveSpeed = 0;
+        }
     }
 }
