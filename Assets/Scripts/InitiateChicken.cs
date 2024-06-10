@@ -7,7 +7,6 @@ using TMPro;
 public class InitiateChicken : MonoBehaviour
 {
     public GameObject chicken;
-    public Transform _camera;
     public float timer = 4.0f;
     public bool create = false;
     public TextMeshProUGUI myText;
@@ -16,7 +15,6 @@ public class InitiateChicken : MonoBehaviour
     void Start()
     {
         Instantiate(chicken, transform.position, transform.rotation);
-        Instantiate(chicken, transform.position - new Vector3((float)0.2, 0, 0), transform.rotation);
     }
 
     void Update()
@@ -24,14 +22,12 @@ public class InitiateChicken : MonoBehaviour
         if (create)
         {
             Instantiate(chicken, transform.position, transform.rotation);
-            Instantiate(chicken, transform.position - new Vector3((float)0.2, 0, 0), transform.rotation);
             // myText.text = "press middle finger to catch chicken";
             create = false;
         }
         if (Input.GetKeyDown("space"))
         {
             Instantiate(chicken, transform.position, transform.rotation);
-            Instantiate(chicken, transform.position - new Vector3((float)0.2, 0, 0), transform.rotation);
             // myText.text = "press middle finger to catch chicken";
         }
 

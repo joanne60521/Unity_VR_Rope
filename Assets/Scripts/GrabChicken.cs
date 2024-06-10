@@ -40,6 +40,7 @@ public class GrabChicken : MonoBehaviour
         {
             col.gameObject.transform.position = transform.position;
             col.gameObject.transform.rotation = transform.rotation;
+            Debug.Log("grab");
         }
     }
 }
