@@ -13,6 +13,9 @@ public class MoveChicken : MonoBehaviour
         if (col.CompareTag("Chicken"))
         {
             col.transform.position += moveSpeed * Time.deltaTime * moveDirection;
+        }else if (col.CompareTag("chickenSuccess"))
+        {
+            col.transform.position += moveSpeed * Time.deltaTime * moveDirection;
         }
     }
 }

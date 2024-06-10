@@ -12,6 +12,7 @@ public class StartGame : MonoBehaviour
     public InputActionReference startInputReferenceLeft;
     public InputActionReference startInputReferenceRight;
     public TextMeshProUGUI myText;
+    public TextMeshProUGUI myText1;
 
     private int start = 0;
 
@@ -29,6 +30,7 @@ public class StartGame : MonoBehaviour
             CollideBoxs.SetActive(true);
             start = 2;
             myText.text = "press middle finger to catch chicken";
+            myText1.text = "press middle finger to catch chicken";
         }
     }
 }
