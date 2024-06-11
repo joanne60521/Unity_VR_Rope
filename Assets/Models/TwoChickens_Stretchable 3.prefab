@@ -415,7 +415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8657459959991741512}
   m_Layer: 0
-  m_Name: TwoChickens_Stretchable 1
+  m_Name: TwoChickens_Stretchable 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -836,8 +836,7 @@ MonoBehaviour:
   XRGrabInteractable_1: {fileID: 6521897158376249439}
   XRGrabInteractable_2: {fileID: 8430493723647679112}
   myText: {fileID: 0}
-  myText1: {fileID: 0}
-  needHoldTime: 1
+  needHoldTime: 3
 --- !u!1001 &4552574540532498282
 PrefabInstance:
   m_ObjectHideFlags: 0

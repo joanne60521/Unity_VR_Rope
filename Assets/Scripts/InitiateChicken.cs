@@ -6,8 +6,11 @@ using TMPro;
 
 public class InitiateChicken : MonoBehaviour
 {
-    public GameObject chicken;
+    public GameObject[] chicken;
+    public int chickenIndex;
     public float timer = 4.0f;
+    public float addTimeMin = 4.0f;
+    public float addTimeMax = 8.0f;
     public bool create = false;
     public TextMeshProUGUI myText;
     public TextMeshProUGUI myText1;
@@ -15,7 +18,9 @@ public class InitiateChicken : MonoBehaviour
 
     void Start()
     {
-        Instantiate(chicken, transform.position, transform.rotation);
+        chickenIndex = Random.Range(0, 3);
+        Instantiate(chicken[chickenIndex], transform.position, transform.rotation);
+        Debug.Log(chickenIndex);
     }
 
     void Update()
@@ -30,7 +35,9 @@ public class InitiateChicken : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
-            Instantiate(chicken, transform.position, transform.rotation);
+            chickenIndex = Random.Range(0, 3);
+            Instantiate(chicken[chickenIndex], transform.position, transform.rotation);
+            Debug.Log(chickenIndex);
             // myText.text = "press middle finger to catch chicken";
             // myText1.text = "press middle finger to catch chicken";
         }
@@ -38,8 +45,11 @@ public class InitiateChicken : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            Instantiate(chicken, transform.position, transform.rotation);
-            timer = Random.Range(8.0f, 3.0f);
+            chickenIndex = Random.Range(0, 3);
+            Instantiate(chicken[chickenIndex], transform.position, transform.rotation);
+            Debug.Log(chickenIndex);
+            timer = chickenIndex + 1 + Random.Range(addTimeMin, addTimeMin);
+            Debug.Log("timer: " + timer);
         }
     }
 }

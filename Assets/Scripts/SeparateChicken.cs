@@ -59,8 +59,11 @@ public class SeparateChicken : MonoBehaviour
             }
         }else
         {
-            myText.text = "pull more!";
-            myText1.text = "pull more!";
+            if (XRGrabInteractable_1.isSelected && XRGrabInteractable_2.isSelected)
+            {
+                myText.text = "pull more!";
+                myText1.text = "pull more!";
+            }
             timerStart = false;
         }
     }
