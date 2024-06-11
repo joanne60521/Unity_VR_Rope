@@ -417,7 +417,7 @@ GameObject:
   m_Layer: 0
   m_Name: TwoChickens_Stretchable 3
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -836,6 +836,7 @@ MonoBehaviour:
   XRGrabInteractable_1: {fileID: 6521897158376249439}
   XRGrabInteractable_2: {fileID: 8430493723647679112}
   myText: {fileID: 0}
+  myText1: {fileID: 0}
   needHoldTime: 3
 --- !u!1001 &4552574540532498282
 PrefabInstance:

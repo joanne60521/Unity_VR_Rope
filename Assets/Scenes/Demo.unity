@@ -2506,10 +2506,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'good chicken: 0'
+  m_text: 'SCORE: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c7d39cc69427d3a4a91121ec6df783fe, type: 2}
+  m_sharedMaterial: {fileID: 4838328281964059945, guid: c7d39cc69427d3a4a91121ec6df783fe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5285,7 +5285,7 @@ GameObject:
   m_Layer: 0
   m_Name: Right Controller
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -5549,7 +5549,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.08
+  m_Radius: 0.12
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &417071485
 MonoBehaviour:
@@ -9357,7 +9357,7 @@ GameObject:
   m_Layer: 0
   m_Name: Left Controller
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -9621,7 +9621,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.08
+  m_Radius: 0.12
   m_Center: {x: 0, y: -0.03, z: 0}
 --- !u!114 &664117482
 MonoBehaviour:
@@ -10434,16 +10434,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 181.78
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.2722588
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 104.329796
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.4077573
+      value: -4.398
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.06
+      value: 5.59
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.49
+      value: -2.026
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10472,6 +10484,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_Name
@@ -11744,7 +11760,7 @@ GameObject:
   m_Layer: 0
   m_Name: DestoryBox
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -11828,7 +11844,7 @@ Transform:
   m_GameObject: {fileID: 817007870}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.036, y: 5.0002, z: 0.25}
+  m_LocalPosition: {x: 1.3160002, y: 5.0002, z: 0.25}
   m_LocalScale: {x: 1, y: 0.6584, z: 0.4418}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13272,10 +13288,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press middle finger to grab
+  m_text: PRESS MIDDLE FINGER TO GRAB
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c7d39cc69427d3a4a91121ec6df783fe, type: 2}
+  m_sharedMaterial: {fileID: 4838328281964059945, guid: c7d39cc69427d3a4a91121ec6df783fe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14536,12 +14552,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 181.78
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.2722588
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 104.329796
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.09
+      value: 4.902
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.06
+      value: 5.59
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f990a95cb7c3f44c911993fc6730f3d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14675,7 +14703,7 @@ GameObject:
   m_Layer: 0
   m_Name: Conveyor
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -21910,10 +21938,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press middle finger to grab
+  m_text: PRESS MIDDLE FINGER TO GRAB
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c7d39cc69427d3a4a91121ec6df783fe, type: 2}
+  m_sharedMaterial: {fileID: 4838328281964059945, guid: c7d39cc69427d3a4a91121ec6df783fe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22514,7 +22542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7850061941504505447, guid: 6b03a4b90ae5d5942907e925787d3465, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.52
+      value: -5.24
       objectReference: {fileID: 0}
     - target: {fileID: 7850061941504505447, guid: 6b03a4b90ae5d5942907e925787d3465, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23205,35 +23233,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 1572273081}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
+  m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 0}
-  m_TurnSpeed: 60
-  m_LeftHandTurnAction:
+  m_TurnAmount: 45
+  m_DebounceTime: 0.5
+  m_EnableTurnLeftRight: 1
+  m_EnableTurnAround: 1
+  m_DelayTime: 0
+  m_LeftHandSnapTurnAction:
     m_UseReference: 0
     m_Action:
-      m_Name: Left Hand Turn
+      m_Name: Left Hand Snap Turn
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: b790fdd1-30cd-4f0f-bd6d-00eecefb6f4a
+      m_Id: 7f98439a-1935-410d-9ba8-dc3d76197425
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
-  m_RightHandTurnAction:
+  m_RightHandSnapTurnAction:
     m_UseReference: 1
     m_Action:
-      m_Name: Right Hand Turn
+      m_Name: Right Hand Snap Turn
       m_Type: 0
       m_ExpectedControlType: Vector2
-      m_Id: c9f57b1d-67da-4b6e-aded-6de15c29d36c
+      m_Id: af2746a6-4ea1-45da-a29c-bbe1a5d62328
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &1586842164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24039,7 +24071,7 @@ GameObject:
   m_Layer: 0
   m_Name: InitiateChicken
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -24064,8 +24096,6 @@ MonoBehaviour:
   addTimeMin: 4
   addTimeMax: 8
   create: 0
-  myText: {fileID: 1489488313}
-  myText1: {fileID: 935372951}
 --- !u!4 &1640844799
 Transform:
   m_ObjectHideFlags: 0
@@ -25337,7 +25367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7235504106917489385, guid: 0cbf8189007ea2042bac268ea5abc22c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.44
+      value: -5.16
       objectReference: {fileID: 0}
     - target: {fileID: 7235504106917489385, guid: 0cbf8189007ea2042bac268ea5abc22c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -26401,7 +26431,7 @@ GameObject:
   m_Layer: 0
   m_Name: Conveyor (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -26457,7 +26487,7 @@ Transform:
   m_GameObject: {fileID: 1771798333}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.063, y: 4.6433, z: -2.0283}
+  m_LocalPosition: {x: 1.3430002, y: 4.6433, z: -2.0283}
   m_LocalScale: {x: 0.87765354, y: 0.064624764, z: 4.2863107}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31179,7 +31209,7 @@ GameObject:
   m_Layer: 0
   m_Name: DestroyAll
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -32164,10 +32194,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'good chicken: 0'
+  m_text: 'SCORE: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c7d39cc69427d3a4a91121ec6df783fe, type: 2}
+  m_sharedMaterial: {fileID: 4838328281964059945, guid: c7d39cc69427d3a4a91121ec6df783fe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -44,14 +44,14 @@ public class SeparateChicken : MonoBehaviour
             }
 
             duration = Time.time - enterTime;
-            myText.text = "hold  " + Mathf.Ceil(needHoldTime - duration).ToString() + "s";
-            myText1.text = "hold  " + Mathf.Ceil(needHoldTime - duration).ToString() + "s";
+            myText.text = "HOLD  " + Mathf.Ceil(needHoldTime - duration).ToString() + "s";
+            myText1.text = "HOLD  " + Mathf.Ceil(needHoldTime - duration).ToString() + "s";
 
             if (duration >= needHoldTime)
             {
                 backToOrigin = true;
-                myText.text = "Good Job";
-                myText1.text = "Good Job";
+                myText.text = "GREAT JOB";
+                myText1.text = "GREAT JOB";
                 timerStart = false;
                 chicken1.tag = chickenSuccess;
                 chicken2.tag = chickenSuccess;
@@ -61,8 +61,8 @@ public class SeparateChicken : MonoBehaviour
         {
             if (XRGrabInteractable_1.isSelected && XRGrabInteractable_2.isSelected)
             {
-                myText.text = "pull more!";
-                myText1.text = "pull more!";
+                myText.text = "PULL MORE!";
+                myText1.text = "PULL MORE!";
             }
             timerStart = false;
         }

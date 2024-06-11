@@ -12,8 +12,8 @@ public class InitiateChicken : MonoBehaviour
     public float addTimeMin = 4.0f;
     public float addTimeMax = 8.0f;
     public bool create = false;
-    public TextMeshProUGUI myText;
-    public TextMeshProUGUI myText1;
+    // public TextMeshProUGUI myText;
+    // public TextMeshProUGUI myText1;
 
 
     void Start()
