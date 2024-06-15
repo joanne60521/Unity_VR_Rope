@@ -27,8 +27,8 @@ public class SeparateChicken : MonoBehaviour
 
     void Start()
     {
-        myText = GameObject.Find("Text").GetComponent<TextMeshProUGUI>();
-        myText1 = GameObject.Find("Text1").GetComponent<TextMeshProUGUI>();
+        myText = GameObject.Find("InfoText").GetComponent<TextMeshProUGUI>();
+        myText1 = GameObject.Find("InfoText1").GetComponent<TextMeshProUGUI>();
     }
 
     void Update()
