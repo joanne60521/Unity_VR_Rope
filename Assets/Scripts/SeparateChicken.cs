@@ -25,10 +25,17 @@ public class SeparateChicken : MonoBehaviour
     private float duration;
     private bool timerStart = false;
 
+
+    public GameObject imgGrab;
+    public GameObject imgGrab1;
+
+
     void Start()
     {
         myText = GameObject.Find("InfoText").GetComponent<TextMeshProUGUI>();
         myText1 = GameObject.Find("InfoText1").GetComponent<TextMeshProUGUI>();
+        imgGrab = GameObject.Find("Img_Grab");
+        imgGrab1 = GameObject.Find("Img_Grab1");
     }
 
     void Update()
@@ -37,6 +44,10 @@ public class SeparateChicken : MonoBehaviour
         distance = heading.magnitude;
         if (distance > 1 && XRGrabInteractable_1.isSelected && XRGrabInteractable_2.isSelected && !backToOrigin)
         {
+            imgGrab.SetActive(false);
+            imgGrab1.SetActive(false);
+
+
             if (!timerStart)
             {
                 enterTime = Time.time;
@@ -61,6 +72,8 @@ public class SeparateChicken : MonoBehaviour
         {
             if (XRGrabInteractable_1.isSelected && XRGrabInteractable_2.isSelected)
             {
+                imgGrab.SetActive(false);
+                imgGrab1.SetActive(false);
                 myText.text = "PULL MORE!";
                 myText1.text = "PULL MORE!";
             }

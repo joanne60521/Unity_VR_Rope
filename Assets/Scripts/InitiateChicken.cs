@@ -20,7 +20,6 @@ public class InitiateChicken : MonoBehaviour
     {
         chickenIndex = Random.Range(0, 3);
         Instantiate(chicken[chickenIndex], transform.position, transform.rotation);
-        Debug.Log(chickenIndex);
     }
 
     void Update()
@@ -37,7 +36,6 @@ public class InitiateChicken : MonoBehaviour
         {
             chickenIndex = Random.Range(0, 3);
             Instantiate(chicken[chickenIndex], transform.position, transform.rotation);
-            Debug.Log(chickenIndex);
             // myText.text = "press middle finger to catch chicken";
             // myText1.text = "press middle finger to catch chicken";
         }
@@ -47,9 +45,7 @@ public class InitiateChicken : MonoBehaviour
         {
             chickenIndex = Random.Range(0, 3);
             Instantiate(chicken[chickenIndex], transform.position, transform.rotation);
-            Debug.Log(chickenIndex);
             timer = chickenIndex + 1 + Random.Range(addTimeMin, addTimeMin);
-            Debug.Log("timer: " + timer);
         }
     }
 }
